@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: url('https://source.unsplash.com/1380x790/?nature,water');
+  /* background-image: url('https://source.unsplash.com/1380x790/?nature,water'); */
   display: flex;
   align-items: center;
   justify-content: center;
