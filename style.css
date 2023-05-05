@@ -163,5 +163,104 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #925667;
+}
+
+/* @media queries */
+@media screen and (min-width: 895px) and (max-width: 1100px) {
+  main {
+    width: 80rem;
+    height: 50rem;
+  }
+  .current {
+    width: 58%;
+    padding: 1rem;
+  }
+  .btn {
+    margin: -3rem 0rem;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 894px) {
+  main {
+    width: 70rem;
+    height: 48rem;
+  }
+  .btn--roll {
+    top: 36.3rem;
+  }
+  .btn--hold {
+    top: 42.1rem;
+  }
+  .current {
+    width: 92%;
+    padding: 2rem;
+  }
+  .name {
+    font-size: 2.2rem;
+  }
+  .score {
+    font-size: 7rem;
+  }
+  .btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #444;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 900;
+    transition: all 0.2s;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 0.7rem 2.5rem;
+    border-radius: 17rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  }
+  .btn::first-letter {
+    font-size: 2rem;
+  }
+  .btn--new {
+    top: 7rem;
+  }
+  .dice {
+    width: 8rem;
+    height: 8rem;
+  }
+  .btn {
+    margin: -3rem 0rem;
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 750px) {
+  main {
+    width: 37rem;
+    height: 34rem;
+  }
+  .player {
+    padding: 19px;
+  }
+  .current {
+    width: 69%;
+    padding: 20px;
+  }
+  .current-label {
+    text-transform: uppercase;
+    margin-bottom: -1px;
+    font-size: 15px;
+  }
+  .score {
+    font-size: 5rem;
+  }
+  .dice {
+    height: 5rem;
+    width: 5rem;
+  }
+  .current-score {
+    font-size: 1.5rem;
+  }
 }
